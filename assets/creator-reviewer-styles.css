@@ -1,0 +1,165 @@
+ar-reviewer-credentials--label,
+.ar-reviewer-name,
+.ar-reviewer-title {
+    font-weight: 700 !important;
+}
+.ar-reviewer-card {
+    padding: 20px;
+    border-radius: 10px;
+    font-family: inherit;
+    border: 1px solid #ddd;
+}
+.ar-reviewer-card--inner {
+    gap: 20px;
+    display: flex;
+}
+.ar-reviewer-label {
+    margin-bottom: 20px;
+}
+.ar-reviewer-label p {
+    margin: 0;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 700;
+}
+.ar-reviewer-card img {
+    width: 100px !important;
+    height: 100px !important;
+    border-radius: 50% !important;
+}
+.ar-reviewer-info {
+    flex: 1;
+}
+.ar-reviewer-info h3 {
+    font-size: 24px;
+    margin: 0 0 10px;
+}
+.ar-reviewer-info p {
+    margin: 0;
+    font-size: 18px;
+}
+.ar-reviewer-page {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    max-width: 600px !important;
+    margin: 50px auto 0 !important;
+    text-align: center !important;
+}
+.ar-reviewer-image--lg,
+.ar-reviewers-list-image {
+    width: 200px !important;
+    height: 200px !important;
+    border-radius: 50% !important;
+    margin-bottom: 20px !important;
+}
+.ar-reviewer-name {
+    font-size: 36px !important;
+    margin-bottom: 0 !important;
+    text-transform: capitalize;
+    margin-top: 0 !important;
+    line-height: 1.5;
+}
+.ar-reviewer-title {
+    margin: 0 !important;
+    font-size: 24px !important;
+    text-transform: capitalize;
+}
+.ar-reviewer-description {
+    font-size: 18px !important;
+    margin-bottom: 20px !important;
+}
+.ar-reviewer-credentials {
+    font-size: 16px !important;
+    margin-top: 10px !important;
+    margin-bottom: 40px !important;
+}
+.ar-reviewer-social {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.ar-reviewer-social-link {
+    font-size: 24px !important;
+    color: #333 !important;
+    margin: 0 10px 0 0 !important;
+    text-decoration: none !important;
+}
+.ar-reviewer-social .ar-reviewer-social-link:last-child {
+    margin-left: 0 !important;
+}
+.ar-reviewers-list-feed-row {
+    margin-bottom: 0 !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+}
+@media (max-width: 767px) {
+    .ar-reviewer-card--inner,
+    .ar-reviewers-list-feed-row {
+        flex-direction: column;
+    }
+}
+.ar-reviewers-list-main-heading {
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+    top: 0 !important;
+    text-transform: capitalize;
+}
+.ar-reviewers-list-entry-1 {
+    flex: 1 !important;
+    text-decoration: none !important;
+    transition: 0.2s ease-out !important;
+}
+.ar-reviewers-list-entry-1 .ar-reviewer-social {
+    margin-bottom: 40px;
+}
+.ar-reviewers-list-entry-1,
+.ar-reviewers-list-main-heading {
+    padding: 0 30px !important;
+}
+.ar-reviewers-list-heading {
+    font-weight: 700 !important;
+    transition: color 0.2s ease-out !important;
+    color: #333;
+    margin-top: 0 !important;
+    font-size: 24px !important;
+    text-decoration: none !important;
+}
+.ar-reviewers-list-heading,
+.ar-reviewers-list-main-heading {
+    font-family: Arial, Helvetica, Tahoma, Georgia, "Times New Roman", Sans-Serif !important;
+}
+.ar-reviewers-list-heading:hover {
+    color: #2397e8 !important;
+}
+.ar-reviewers-list-subheading {
+    margin: 0;
+    opacity: 0.5;
+    font-size: 20px;
+}
+.ar-reviewers-list-image-wrapper {
+    display: block !important;
+}
+.ar-reviewers-list--reviewer-card {
+    display: flex !important;
+    text-align: center !important;
+    flex-direction: column !important;
+}
+.ar-reviewers-list-feed-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+    gap: 50px;
+    margin-top: 30px !important;
+}
+@media screen and (max-width: 768px) {
+    .ar-reviewers-list-feed-wrapper {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
+.ar-reviewers-list--reviewer-card {
+    justify-content: center;
+    align-items: center;
+    max-width: 670px;
+}

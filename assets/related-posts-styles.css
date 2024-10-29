@@ -1,0 +1,24 @@
+.wrapper-related-posts {
+    width: 100%;
+    grid-column: -1/1;
+}
+
+.ar-connect-feed-row h2 {
+    font-size: 1rem;
+}
+
+.wrapper-related-posts h2 {
+    margin-bottom: 30px;
+}
+
+.ar-connect-entry-1 {
+    padding: 0 !important;
+}
+
+.title-link-only ul,
+.wrapper-related-posts .ar-connect-feed-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 40px;
+}
+

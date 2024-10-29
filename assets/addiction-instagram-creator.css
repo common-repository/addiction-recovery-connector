@@ -1,0 +1,61 @@
+.ar-connect-image {
+    width: 100% !important;
+}
+.wrapper-related-posts .ar-connect-image {
+    max-width: 550px !important;
+}
+
+.ar-connect-feed-row {
+    margin-bottom: 20px !important;
+    display: flex !important;
+    flex-wrap: wrap !important
+}
+
+@media (max-width:767px) {
+    .ar-connect-feed-row {
+        flex-direction: column
+    }
+    .wrapper-related-posts .ar-connect-image {
+        height: 250px;
+    }
+}
+
+.ar-connect-main-heading {
+    margin-top: 30px !important;
+    margin-bottom: 30px !important
+}
+
+.ar-connect-entry-1 {
+    flex: 1 !important;
+    text-decoration: none !important;
+    transition: .2s ease-out !important
+}
+
+.ar-connect-entry-1,
+.ar-connect-feed-row,
+.ar-connect-main-heading {
+    padding: 0 15px !important
+}
+
+.ar-connect-heading {
+    color: #484848 !important;
+    font-weight: 700 !important;
+    transition: color .2s ease-out !important;
+    margin-top: 0 !important;
+    font-size: 20px !important
+}
+
+.ar-connect-heading:hover {
+    color: #2397e8 !important
+}
+
+.ar-connect-heading,
+.ar-connect-main-heading {
+    font-family: Arial, Helvetica, Tahoma, Georgia, 'Times New Roman', Sans-Serif !important
+}
+
+@media (min-width: 767px) {
+    .wrapper-related-posts .ar-connect-image {
+        max-width: calc( 33.33% - 60px );
+    }
+}
